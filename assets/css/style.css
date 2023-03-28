@@ -1,0 +1,19 @@
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+body {
+   font-family: sans-serif;
+}
+
+#site_header {
+   height: 60px;
+   background-color: rgb(150, 80, 80);
+   text-align: center;
+}
+
+#site_main {
+   height: calc(100vh - 60px);
+}
