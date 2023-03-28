@@ -13,6 +13,7 @@ createApp({
       return {
          message: 'test',
          headerTitle: 'This Is Vue JS',
+         white: 'white',
       }
    }
 }).mount('#app');
