@@ -8,12 +8,28 @@ body {
    font-family: sans-serif;
 }
 
+h1 {
+   animation: pulse 1s infinite alternate;
+
+}
+
+
 #site_header {
    height: 60px;
-   background-color: rgb(150, 80, 80);
-   text-align: center;
+   background-image: linear-gradient(to right, rgb(125, 202, 90), rgb(35, 81, 209));
+   
+
+   /* flex */
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
 #site_main {
    height: calc(100vh - 60px);
+}
+
+@keyframes pulse {
+   from {transform: scale(1);}
+   to {transform: scale(1.25);}
 }
