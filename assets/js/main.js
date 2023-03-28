@@ -14,6 +14,10 @@ createApp({
          message: 'test',
          headerTitle: 'This Is Vue JS',
          white: 'white',
+         imgAttributes: {
+            src: './assets/img/VueJS.jpg',
+            alt: 'VueJS'
+         }
       }
    }
 }).mount('#app');
