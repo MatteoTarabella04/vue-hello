@@ -13,6 +13,9 @@ h1 {
 
 }
 
+img {
+   max-width: 100%;
+}
 
 #site_header {
    height: 60px;
@@ -27,6 +30,9 @@ h1 {
 
 #site_main {
    height: calc(100vh - 60px);
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
 @keyframes pulse {
