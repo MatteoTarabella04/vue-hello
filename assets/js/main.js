@@ -11,7 +11,8 @@ const { createApp } = Vue
 createApp({
    data() {
       return {
-         message: 'test'
+         message: 'test',
+         headerTitle: 'This Is Vue JS',
       }
    }
 }).mount('#app');
